@@ -7,7 +7,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 
-
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -17,8 +16,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatIconModule,
     MatButtonModule,
+    MatIconModule,
     MatSidenavModule
   ],
   providers: [],
