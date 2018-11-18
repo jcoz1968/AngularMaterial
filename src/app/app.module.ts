@@ -1,3 +1,4 @@
+import { CustomersModule } from './customers/customers.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,6 +21,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    CustomersModule,
 
     // Material
     BrowserAnimationsModule,
