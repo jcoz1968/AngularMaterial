@@ -13,6 +13,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatIconModule } from '@angular/material/icon';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatTooltipModule } from '@angular/material';
+
 
 @NgModule({
   declarations: [MessageListComponent, MessageNewComponent],
@@ -26,7 +28,8 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     MatInputModule,
     MatStepperModule,
     MatIconModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatTooltipModule
   ]
 })
 export class MessagesModule { }
