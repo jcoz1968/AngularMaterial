@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatSnackBarModule } from '@angular/material';
 
 import { RepDialogComponent } from './rep-dialog/rep-dialog.component';
 
@@ -27,7 +28,8 @@ import { RepDialogComponent } from './rep-dialog/rep-dialog.component';
     MatIconModule,
     MatInputModule,
     MatDialogModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSnackBarModule
   ],
   declarations: [
     CustomerCardComponent,
