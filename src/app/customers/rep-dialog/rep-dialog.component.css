@@ -1,0 +1,12 @@
+.repRadioGroup {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.repRadioGroup .repRadioButton {
+  margin: 5px;
+}
+
+.repRadioGroup .repRadioButton {
+  margin: 15px 0;
+}
