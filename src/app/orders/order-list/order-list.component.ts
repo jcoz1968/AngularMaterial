@@ -15,6 +15,34 @@ const ELEMENT_DATA = [
     total: 59.99,
     description: '1lbs of tuna',
     isChecked: false
+  },
+  {
+    orderDate: new Date(),
+    orderNumber: 103,
+    total: 41.22,
+    description: '1lbs of yellow tuna',
+    isChecked: false
+  },
+  {
+    orderDate: new Date(),
+    orderNumber: 104,
+    total: 21.99,
+    description: '15lbs of tuna parts',
+    isChecked: false
+  },
+  {
+    orderDate: new Date(),
+    orderNumber: 105,
+    total: 27.99,
+    description: '11lbs of medium tuna',
+    isChecked: false
+  },
+  {
+    orderDate: new Date(),
+    orderNumber: 106,
+    total: 37.22,
+    description: '18lbs of cheap tuna',
+    isChecked: false
   }
 ];
 
@@ -33,6 +61,12 @@ export class OrderListComponent implements OnInit {
 
   ngOnInit() {
     this.dataSource.sort = this.sort;
+  }
+
+  selectAll() {
+    for (const elm of ELEMENT_DATA) {
+      elm.isChecked = !elm.isChecked;
+    }
   }
 
 }
