@@ -14,6 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
+import { MatTableModule, MatSortModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -29,7 +31,10 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatIconModule,
     MatInputModule,
     MatTabsModule,
-    MatMomentDateModule
+    MatMomentDateModule,
+    MatTableModule,
+    MatSortModule,
+    MatCheckboxModule
   ]
 })
 export class OrdersModule { }
